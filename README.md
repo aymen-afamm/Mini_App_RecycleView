@@ -22,7 +22,7 @@ Ce projet est une application Android développée en Kotlin qui affiche une lis
 - **Architecture** : Adapter pattern avec ViewHolder
 
 ## 📸 Captures d'écran
-![WhatsApp Image 2025-10-19 at 01 03 18](https://github.com/user-attachments/assets/86e9f025-7a71-4701-86bc-a37df6b1185d)
+![WhatsApp Image 2025-10-19 at 15 49 12](https://github.com/user-attachments/assets/ca0cadd8-79e3-4bfb-99af-d430bf713faa)
 
 
 ## 🚀 Installation et exécution
