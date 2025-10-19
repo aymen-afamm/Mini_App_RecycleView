@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Liste des Animaux"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:background="#4CAF50"
+        android:textColor="#FFFFFF" />
+    <RadioGroup
+        android:id="@+id/radioGroupAffichage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <RadioButton
+            android:id="@+id/radioLineaire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Linéaire"
+            android:checked="true"
+            android:layout_marginEnd="32dp" />
+
+        <RadioButton
+            android:id="@+id/radioGrille"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grille" />
+    </RadioGroup>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewAnimaux"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp" />
+
+</LinearLayout>
